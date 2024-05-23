@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+export const reactStrictMode = true;
+export const images = {
+  domains: ['store.storeimages.cdn-apple.com'],
+};
 
-export default nextConfig;
