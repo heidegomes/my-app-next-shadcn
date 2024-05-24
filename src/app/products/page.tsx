@@ -58,7 +58,7 @@ export default function Products() {
           <div>
             <h1 className="my-5">Produtos</h1>
 
-            {<ProductsList products={products!} />}
+            {<ProductsList products={products} />}
           </div>
         </Container>
       </main>
